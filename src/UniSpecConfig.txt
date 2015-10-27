@@ -1,0 +1,31 @@
+[InstrumentControl]
+ScansToAverage = 20
+IntegrationTime = 280
+
+[InstrumentInfo]
+SerialNumber = 0511
+
+[SerialControl]
+ComPortName = COM1
+PauseDuringBufferReading = 0.01
+PauseForDataCollection = 0.5
+
+[StorageSettings]
+DataDirectory = C:\Unispec\Data\Dark_Current
+
+[SiteInfo]
+Name = Irchel
+Lat = 47.396712
+Lon = 8.548955
+
+[Coeffs]
+A = 289.192
+B = 3.39025
+C = -0.000269264
+D = 298.655
+E = 3.37912
+F = -0.000308587
+
+[Trigger]
+Port = COM5
+Baud = 9600
