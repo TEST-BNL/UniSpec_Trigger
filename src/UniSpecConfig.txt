@@ -6,13 +6,12 @@ IntegrationTime = 280
 SerialNumber = 0511
 
 [SerialControl]
-ComPortName = COM1
+ComPortName = COM6
 PauseDuringBufferReading = 0.01
 PauseForDataCollection = 0.5
 
 [StorageSettings]
-DataDirectory = C:\Unispec\Data\Dark_Current
-
+DataDirectory = C:\Unispec\Data
 [SiteInfo]
 Name = Irchel
 Lat = 47.396712
@@ -27,5 +26,5 @@ E = 3.37912
 F = -0.000308587
 
 [Trigger]
-Port = COM5
+Port = COM2
 Baud = 9600
